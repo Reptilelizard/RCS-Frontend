@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Home from "@/components/home/Home.vue";
-import Index from "@/components/server-state/index.vue";
+import Index from "@/components/server-status/index.vue";
 
 
 const router = createRouter({
@@ -12,8 +12,8 @@ const router = createRouter({
       component: Home,
     },
     {
-      path: '/server-state',
-      name: 'server-state',
+      path: '/server-status',
+      name: 'server-status',
       component: Index,
     },
   ],

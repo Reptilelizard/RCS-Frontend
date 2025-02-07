@@ -31,7 +31,7 @@ const items = ref<MenuProps['items']>([
     title: '主页',
   },
   {
-    key: '/server-state',
+    key: '/server-status',
     icon: () => h(CloudServerOutlined),
     label: '服务器面板',
     title: '服务器面板',
